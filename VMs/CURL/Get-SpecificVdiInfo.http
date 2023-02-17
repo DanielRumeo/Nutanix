@@ -1,8 +1,8 @@
-<!--
-  1. Replace {Prism Central IP} with yours
-  2. Replace {Machine UUID} with yours
-  3. Replace {API Key} with yours
--->
+
+  # 1. Replace {Prism Central IP} with yours
+  # 2. Replace {Machine UUID} with yours
+  # 3. Replace {API Key} with yours
+
 
 curl -X 'Get' \
 'https://{Prism Central IP}:9440/api/nutanix/v3/vms/{Machine UUID}' \
