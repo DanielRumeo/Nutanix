@@ -1,8 +1,8 @@
-curl -X 'POST' 
-'https://{Prism Central IP}:9440/api/nutanix/v3/vms/list' 
--H 'accept: application/json' 
--H 'Authorization: Basic {API Key}' 
--H 'Content-Type: application/json' 
+curl -X 'POST' \
+'https://{Prism Central IP}:9440/api/nutanix/v3/vms/list' \
+-H 'accept: application/json' \
+-H 'Authorization: Basic {API Key}' \
+-H 'Content-Type: application/json' \
 -d '{
     "kind" : "vm",
     "sort_attribute" : "vm_name",
